@@ -1,0 +1,84 @@
+INSTITUTO DE E.S. “PABLO RUIZ PICASSO”. Chiclana.
+CURSO: 2023/24
+Ciclo Superior: A.S.I.R.
+Módulo: Implantación de Aplicaciones Web. (PHP).
+1ª EVALUACIÓN.
+N º 1b
+– Elementos básicos de un programa: Expresiones, estructuras de control (secuencial,
+alternativas y repetitivas) y FUNCIONES.
+
+1.-) Se pide dos números a y b.
+A continuación visualizar si su suma es positiva, negativa o cero. 
+
+2.-) Se piden: dos números: nota, edad y un carácter
+(por ejemplo, de forma: $car = “V”)
+A continuación: mostrar el mensaje “ACEPTADO” si la nota
+es aprobada, la edad es mayor o igual a 18 y el sexo sea “V” o “v”.
+Mostrar “ACEPTADA” en el mismo caso anterior pero el sexo sea “M“ o “m“. 
+ Si es menor de edad, se visualiza “NO ES POSIBLE, es menor de edad”. 
+ Si la nota es menor de 5 se visualiza “NO ES POSIBLE, nota suspensa”.
+
+3-) Expresar los siguientes predicados (expresión condicional), teniendo en cuenta que:
+(“europeo“, “casado“, “mujer“, “edad“ son variables numéricas enteras)
+→ europeo es igual a uno y casado es igual a cero. 
+ → saldo es superior a 10000 o europeo es igual a cero y edad divisible por cuatro.
+
+4.-) Pedir un sueldo, a continuación, visualizar:
+a) Si es superior a 600.
+b) Si es superior a 1200.
+c) Si es superior a 1800.
+Por ejemplo, si el sueldo es: 1500. Deberá visualizarse: 
+Es superior 600
+Es superior 1200
+
+5.-) Dado un número visualizar si es par o impar.
+
+6.-) Dados dos números visualizar si su suma es superior a su producto o al contrario.
+
+7.-) Visualizar los valores numéricos enteros de 50 a 0 en orden descendente, de 2 en 2.
+
+8.-) Con la estructura de control REPETITIVA FOR.
+
+Mostrar una figura similar a la siguiente: 
+(no utilizar la instrucción echo de la forma echo “***....”)
+*
+* *
+* * *
+* * * * 
+* * * * * 
+* * * * * *
+
+9.-) Dado un número mostrar todos sus divisores (aquellos cuyo resto de la división es cero).
+
+10.-) Con la estructura de control ALTERNATIVA SWITCH CASE. 
+Dada una nota numérica de 0 a 10, visualizar: 
+de 0 a 2 “muy deficiente”., 3 y 4 “deficiente”, 5 “aprobado”, 6 “bien”, 7 y 8 “Notable”, 9 y 10
+“Sobresaliente”. En otro caso “Error”.
+
+11.-) Con la estructura de control ALTERNATIVA IF.
+Dada una nota numérica de 0 a 10, visualizar: 
+ 0 y 2 “Muy deficiente”, 3 y 4 “Deficiente”, 5 “Aprobado”, 6 “Bien”, 7 y 8 “Notable”, 9 y 10
+“Sobresaliente”. En otro caso “Error”.
+
+12.-) Con la estructura de control REPETITIVA WHILE.
+Mostrar una figura similar a la siguiente: 
+(no utilizar la instrucción echo de la forma echo “***....”)
+*
+* *
+* * *
+* * * * 
+* * * * * 
+* * * * * *
+
+13.-) Con la estructura de control REPETITIVA DO WHILE.
+Mostrar una figura similar a la siguiente: 
+(no utilizar la instrucción echo de la forma echo “***....”)
+*
+* *
+* * *
+* * * * 
+* * * * * 
+* * * * * *
+
+14.-) Con estructuras de control REPETITIVA WHILE encajadas.
+ Visualizar las tablas de multiplicar de los valores 3, 4, 5 y 6. 
