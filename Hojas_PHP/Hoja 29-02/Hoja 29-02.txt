@@ -1,0 +1,43 @@
+1.-)  Almacenar en una tabla o array los 10 primeros números primos desde el 20. Visualizar el array,
+
+------------------------------------------------------------------------------------------------------------------
+2.-) Dado un array1 con valores numéricos, visualizar la suma de los guardados en las posiciones pares.
+ Dado un array2 con valores numéricos, visualizar la suma de los guardados en las posiciones pares.
+ Visualizar que suma es mayor, la del primer array, la del segundo o si son iguales.
+
+------------------------------------------------------------------------------------------------------------------
+3.-)  Cargar un matriz (3x4) con datos numéricos. 	
+	a)  Pasar todos los datos a un array unidimensional.
+  	b) Desplazar todos los valores un lugar a la derecha (a la siguiente posición excepto el último que pasa a la úprimera).
+	c) Guarda los datos del array unidimensional en la matriz (3x4).
+    d) Visualizar la matriz (3x4).
+
+------------------------------------------------------------------------------------------------------------------
+4.-)   Se declara un array BIDIMENSIONAL que contiene arrays asociativos, concretamente, de los contagios que ha habido en distintas localidades  en la última semana de lunes a viernes:
+    lunes    “Chiclana” => 130, “Conil” => 220, “San Fernando” =>300
+    martes  “Chiclana” => 100, “Conil” => 200, “San Fernando” =>280	
+                                      …......................…
+
+	a) Visualizar el número de contagios, por localidad, que ha habido el martes (segunda fila)
+	c) Visualizar la suma de los contagios que ha habido en Chiclana.
+   	d) Visualizar en que día de la semana ha habido más contagios
+
+------------------------------------------------------------------------------------------------------------------
+5.-) Se declara una matriz de 6x4 con valores numéricos. Se pide: 
+a) Guardar en el último elemento de cada fila la suma de los anteriores en su fila. 
+b) Visualizar la suma de todos valores de la ultima columna,
+es decir, la suma de todos los sumandos anteriores.
+------------------------------------------------------------------------------------------------------------------
+
+6.-) Dado un array tab1 con 8 valores numéricos, guardar en otro array tab2 las sumas de los
+divisores de cada valor de tab1 (excluido el mismo). Es decir, la suma de los divisores del primer
+elemento de tab1 se guarda en la primera posición de tab2, y así sucesivamente. Visualizar tab2.
+
+------------------------------------------------------------------------------------------------------------------
+7.-) Dado un array1 pasar a un array2 aquellos valores del array1 cuyo factorial esté entre 5000 y 10000. Visualizar el array2.
+
+------------------------------------------------------------------------------------------------------------------
+8.-) Se considera una matriz 4x7 con valores numéricos enteros. 
+	a) Visualizar las filas donde todos los valores sean positivos.
+	b) Visualizar la suma de la fila 1 (segunda  fila).
+   	c) Visualizar la suma de la columna 3 (cuarta columna)
