@@ -1,30 +1,41 @@
 <?php
 
 //variables
-$nota=7;
+$nota=3;
 
-$age=19;
+$age=28;
 
 $caracter="M";
 
 //----------------------------------
 
-# kernel
+//kernel
 function Evaluator($nota, $age, $caracter) { // declare (args)
     if ($nota>=5 and $age>=18 and $caracter=="M" or $caracter=="m") { //case1--> nota(+5) edad(+18) letra(M o m)
-        echo "// DEBUG: ACEPTADA";
+        $eval_status="// DEBUG: ACEPTADA";
     }elseif ($nota>=5 and $age>=18 and $caracter=="V" or $caracter=="v") { //case2--> nota(+5) edad(+18) letra(V o v)
-        echo "// DEBUG: APEPTADO";
+        $eval_status="// DEBUG: APEPTADO";
     }elseif ($age<=18) { // case3--> edad(-18)
-        echo "// CAUTION: NO ES POSIBLE. ES MENOR DE EDAD";
+        $eval_status="// CAUTION: NO ES POSIBLE. ES MENOR DE EDAD";
     }elseif ($nota<=5) { //case4--> nota(-5)
-        echo "// WARNING: NO ES POSIBLE. NOTA SUSPENSA";
+        $eval_status="// WARNING: NO ES POSIBLE. NOTA SUSPENSA";
     }
-    
+    return $eval_status;
 }
 
 //-------------------------------
 
-# interface
-Evaluator($nota, $age, $caracter);
+//interface declare
+function Visual($data){
+    echo $data;
+}
+
+//-----------------------
+
+
+//call kernel 
+$result=Evaluator($nota, $age, $caracter);
+
+//call interface
+Visual($result);
 ?>
