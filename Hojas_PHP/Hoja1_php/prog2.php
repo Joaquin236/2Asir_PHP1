@@ -1,7 +1,7 @@
 <?php
 
 //variables
-$nota=3;
+$nota=8;
 
 $age=28;
 
