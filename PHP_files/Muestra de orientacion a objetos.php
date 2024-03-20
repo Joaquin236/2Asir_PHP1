@@ -1,10 +1,4 @@
 <?php
-
-function Frase() {
-    echo "//WARNING: EXPERIMENTAL OBJECTS";
-    
-}
-Frase();
 /*
 Un objeto lleva 2 elementos:
 1º Los datos del objeto
@@ -12,7 +6,7 @@ Un objeto lleva 2 elementos:
 instrucciones que trabajan los datos
 de objetos.
 La estructura es la clase
-
+*/
 class Elemento
 {
     public function Inicio($nom) {
@@ -29,7 +23,7 @@ class Elemento
 $obj_1=new Elemento();
 $obj_1->Inicio();
 $obj_1->Execution('Ana');
-
+/*
 Herencia de clases--> una clase base distribuye a la clase hederadas
 
 class base

@@ -1,13 +1,25 @@
 <?php
 // guarddar en un array los sueldos de un empleado con su nombre y calcular la media --> pedro tiene <sueldo> de media
 
+$sueldos=array(148,343,217,432);
 
-function Process() {
-  for ($i=2; $i<=212; $i++){
-      $media=$i+$i/2;
-  }
-  echo "Pedro tiene --> " . $media . " de media";
+function Proceso($sueldos){
+	$countn=1;
+	for ($x=0; $x<count($sueldos); $x++){
+		if ($sueldos[$x]>$countn){
+			$media=($sueldos[$x]+$countn)/2;
+		}
+	}
+	$countn+=1;
+	return $media;
 }
 
-Process();
-?> 
+function Visual($data) {
+	echo "Pedro tiene un sueldo de media --> " . $data;
+}
+
+$result=Proceso($sueldos);
+Visual($result);
+
+
+?>
