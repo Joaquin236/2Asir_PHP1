@@ -11,21 +11,30 @@ function Process(){ # declare
         while ($b <= 10) { // loop 2 --> multiplicate the 4
             while ($c <= 10) { // loop 3 --> multiplicate the 5
                 while ($d <= 10) { // loop 4 --> multiplicate the 6
-                    echo $d . " x " . 6 . " = " . $d*6 . "<br>";
+                    $status=$d . " x " . 6 . " = " . $d*6 . "<br>";
                     $d++;
                 } // interface
-                echo $c . " x " . 5 . " = " . $c*5 . "<br>";
+                $status=$c . " x " . 5 . " = " . $c*5 . "<br>";
                 $c++;
             } // interface
-            echo $b . " x " . 4 . " = " . $b*4 . "<br>";
+            $status=$b . " x " . 4 . " = " . $b*4 . "<br>";
             $b++;
         } // interface
-        echo $a . " x " . 3 . " = " . $a*3 . "<br>";
+        $status=$a . " x " . 3 . " = " . $a*3 . "<br>";
         $a++;
     }
+    return $status;
 }
 
 // interface
-Process();
+function Visual($data) {
+    echo $data;
+}
+
+//call kernel
+$result=Process();
+
+//call interface
+Visual($result);
 
 ?>

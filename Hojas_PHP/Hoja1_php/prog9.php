@@ -2,18 +2,29 @@
 
 //kernel
 function Process() {
-    $number=36;
+    $number=362;
     for ($i=1; $i < $number; $i++) { 
         if ($number%$i==0) {
-            echo $i;
+            $status=$i;
         }else {
-            echo $number%2 . "<br>";
+            $status=$number%2;
         }
     }
+    return $status;
 }
 
 //-----------------------------
 //interface
-Process();
+function Visual($data) {
+    echo $data;
+}
+
+//---------------------
+//call kernel
+$result=Process();
+
+//call interface
+Visual($result);
+
 
 ?>
