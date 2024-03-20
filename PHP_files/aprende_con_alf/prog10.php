@@ -30,8 +30,8 @@ $inmuebles =array("year" => 2000, "metros" => 100, "rooms" => 3, "garage" => 1, 
 function Proceso($inmuebles){
     foreach ($inmuebles as $key => $value) {
         echo $value;
-        $precio=($value["metros"]*1000 + $value["rooms"]*5000 + $value["garage"]*15000 *(1-($value["year"]-2024)/100) );
-        echo $precio;
+        //$precio=($value["metros"]*1000 + $value["rooms"]*5000 + $value["garage"]*15000 *(1-($value["year"]-2024)/100) );
+        //echo $precio;
     }
     return $value;
     
