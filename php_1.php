@@ -1,13 +1,18 @@
 <?php
 
-function process(){
-    for (i=0; i<32; i++){
-        $echo "101010101";
+function Process(){
+    for ($i=0; $i<32; $i++){
+        $frase="101010101";
     }
+    return $frase;
 }
-for (i=0; i<32; i++){
 
-    $echo "10100101";
+function Visual($data) {
+    echo $data;    
 }
+
+$result=Process();
+
+Visual($result);
 
 ?>
