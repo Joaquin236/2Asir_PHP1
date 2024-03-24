@@ -5,13 +5,13 @@ $numero=1;
 
 //kernel
 function Proceso($numero) { //declarar funcion_kernel ($arg)
-    $factorialrial=1; //inicio de factorial
+    $factorial=1; //inicio de factorial
     $contador=1; //inicio de contador-acumulador
     while ($contador <= $numero) { //mientras $contador sea mayor igual a $numero
-        $factorialrial*=$contador; //factorial se multiplica por contador
+        $factorial*=$contador; //factorial se multiplica por contador
         $contador++; //incrementar el contador
     }
-    return $factorialrial; //retornar el factorial
+    return $factorial; //retornar el factorial
     
 }
 
