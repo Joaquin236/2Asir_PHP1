@@ -1,0 +1,52 @@
+1.-) CONTADOR: Dados 6 valores numéricos en
+tantas cajas de texto html, obtener en un programa PHP:
+a) cuantos valores numéricos son mayores de 100
+b) cuantos mayores de 500
+c) cuantos mayores de 2000
+
+
+2.-) CONTADOR: Dados 7 notas en tantas
+cajas de texto html, obtener en un programa PHP:
+a) Obtener cuantas notas son aprobadas y
+cuantas suspensas.
+
+3.-) CONTADOR: Dados 8 valores numéricos
+en tantas cajas de texto html,
+obtener en un programa PHP:
+a) Visualizar cuantos valores son múltiplos de 2 y 3
+
+4.-) SWITCH: Dados 7 valores numéricos
+en tantas cajas de texto html,
+obtener en un programa PHP:
+Visualizar si o no hay entre ellos hay
+al menos un número impar que además
+esté entre 40 y 50 y además sea múltiplo de 7.
+
+5.-)  CONTADOR Y ACUMULADOR: Dados 5 números
+obtener el factorial de cada uno de ellos.
+Por ejemplo: El factorial de 5 es 5*4*3*2*1,
+es decir, multiplicando su
+valor por el inferior, el resultado
+por el inferior y así hasta 1.
+5! = 120. 
+
+6.-) CONTADOR: Dados 8 sueldos en
+un formulario. A continuación, visualizar:
+(hacerlo con while)
+a) Cuantos son superiores a 1800 euros.
+b) Cuantos son superiores a 1200 euros.
+c) Cuantos son inferiores a 600 euros.
+
+7.-) CONTADOR Y ACUMULADOR: Se pide 8 números,
+visualizar la media de los valores positivos
+y la media de los valores negativos.
+
+8.-) VARIABLE AUXILIAR: Dados 7 valores numéricos,
+obtener el mayor de ellos.
+
+9.-) VARIABLE AUXILIAR: Dados 7 valores numéricos,
+obtener el mayor de ellos.
+
+10.-) SWITCH: Dados 8 nombres
+(en un formulario, como en los anteriores)
+si o no se encuentra entre ellos el nombre "Rogelio".
